@@ -21,25 +21,7 @@
 	<build>
 		<plugins>
 			<plugin>
-				<artifactId>maven-enforcer-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>enforce-banned-dependencies</id>
-						<goals>
-							<goal>enforce</goal>
-						</goals>
-						<configuration>
-							<rules>
-								<bannedDependencies>
-									<includes combine.children="append">
-										<include>com.tngtech.java:junit-dataprovider:*:*:test</include>
-									</includes>
-								</bannedDependencies>
-							</rules>
-							<fail>true</fail>
-						</configuration>
-					</execution>
-				</executions>
+
 			</plugin>
 		</plugins>
 	</build>
