@@ -1,0 +1,1 @@
+This is a test repository to prevent and catch missconfiguration of internal artifactory.
